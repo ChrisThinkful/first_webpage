@@ -4,3 +4,8 @@ h1 {
   text-align: center;
   color: #1f7a8c;
 }
+header {
+  height: 70px;
+  border: 1px solid #022b3a;
+  background-color: #022b3a;
+}
