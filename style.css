@@ -23,3 +23,6 @@ header {
   color: #a8dadc;
   background-color: #022b3a;
 }
+.round {
+  border-radius: 50%;
+}
