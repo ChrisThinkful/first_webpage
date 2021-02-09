@@ -2,17 +2,17 @@ body {
   text-align: center;
   font-size: 22px;
   font-family: Georgia;
-  color: #ffffff;
+  color: #1f7a8c;
   background: #bfdbf7;
 }
 h1 {
   font-family: Georgia;
   font-size: 60px;
   text-align: center;
-  color: #1f7a8c;
+  color: #bfdbf7;
 }
 header {
-  height: 70px;
+  height: 120px;
   border: 1px solid #022b3a;
   background-color: #022b3a;
 }
