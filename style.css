@@ -1,5 +1,5 @@
 .logo {
-  font-family: "Apple Chancery";
+  font-family: "Apple Chancery", cursive;
   font-size: 72px;
   margin: 0px;
   letter-spacing: 5px;
@@ -8,7 +8,7 @@ body {
   margin: 0;
   text-align: center;
   font-size: 16px;
-  font-family: Optima;
+  font-family: Optima, "arial narrow";
   color: #1d3557;
   background: #a8dadc;
 }
@@ -19,12 +19,17 @@ h2{
 }
 header {
   height: 140px;
+  width: 100%;
   margin: 0 0 10px 0;
   color: #a8dadc;
   background-color: #022b3a;
 }
 .round {
   border-radius: 50%;
+}
+.list-inside {
+  text-align: left;
+  list-style-position: inside;
 }
 
 
