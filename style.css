@@ -1,3 +1,10 @@
+body {
+  text-align: center;
+  font-size: 22px;
+  font-family: Georgia;
+  color: #ffffff;
+  background: #bfdbf7;
+}
 h1 {
   font-family: Georgia;
   font-size: 60px;
