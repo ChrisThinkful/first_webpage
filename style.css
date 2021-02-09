@@ -28,7 +28,7 @@ header {
 }
 
 
-a:link      {color: #f1faee; }
-a:visited   {color: #e63946; }
-a:hover     {color: #457b9d; }
-a:active    {color: yellow;  }
+a:link      {color: #a8dadc; }
+a:visited   {color: #a8dadc; }
+a:hover     {color: #e63946; }
+a:active    {color: #e63946; }
