@@ -10,8 +10,8 @@ hr {
   border: none;
   background: #1d3557;
   color: #1d3557;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   transform: rotate(45deg);
 }
 body {
@@ -55,7 +55,7 @@ footer {
 }
 
 
-a:link      {color: #a8dadc; }
-a:visited   {color: #a8dadc; }
-a:hover     {color: #e63946; }
-a:active    {color: #e63946; }
+a:link      {color: #e63946; }
+a:visited   {color: darkred; }
+a:hover     {color: darkred; }
+a:active    {color: yellow; }
