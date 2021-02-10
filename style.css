@@ -1,9 +1,12 @@
+/* styling of the 'logo' Chris Clark */
 .logo {
   font-family: "Apple Chancery", cursive;
   font-size: 72px;
   margin: 0px;
   letter-spacing: 5px;
 }
+
+/* the styling of the horizontal rule to make it appear as a diamond*/
 hr {
   width: 15px;
   height: 15px;
@@ -14,6 +17,8 @@ hr {
   margin-bottom: 50px;
   transform: rotate(45deg);
 }
+
+/* General styling of the body */
 body {
   margin: 0;
   text-align: center;
@@ -22,17 +27,26 @@ body {
   color: #1d3557;
   background: #a8dadc;
 }
+
+/* Specific styling of the paragraphs*/
 p {
   line-height: 24px;
   padding: 0 25%;
   text-align: center;
   width: 50%;
 }
+
+/* The styling for "Who Is Chris?" */
 h2 {
   margin: 0;
   font-size: 16px;
   padding: 10px;
 }
+
+/* 
+These are the backgrounds for the header which houses the logo and navigation
+and the background for the footer which houses my name and a link to the top of the page
+*/
 header {
   height: 140px;
   width: 100%;
@@ -45,16 +59,20 @@ footer {
   color:#a8dadc;
   background-color: #022b3a;
 }
+
+/* converts chris-mack-pumpkinwall.jpeg into a round picture */
 .round {
   border-radius: 50%;
 }
+
+/* augments the lists to have the list inside rather than the default, outside */
 .list-inside {
   padding: 0 40%;
   text-align: left;
   list-style-position: inside;
 }
 
-
+/* pseudo-classing of the links throughout the page to make them appear a lighter red, then a darker red when highlighted/visited, and then yellow while active */
 a:link      {color: #e63946; }
 a:visited   {color: darkred; }
 a:hover     {color: darkred; }
