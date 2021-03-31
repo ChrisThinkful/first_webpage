@@ -3,10 +3,15 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
   background-color: #e7ecef;
+  color: #274c77;
+}
+
+.shaded-background {
+  background-color: #C1D5EB;
 }
 
 header {
-  background-color: #8b8c89;
+  background-color: #19314d;
 }
 .heading {
   display: flex;
@@ -21,6 +26,10 @@ header {
   letter-spacing: -3;
   margin: 0;
   padding: 10px 0 0 0;
+}
+
+section {
+  padding: 2%;
 }
 
 h3 {
@@ -41,6 +50,24 @@ header nav ul {
   list-style: none;
 }
 
+ul {
+  list-style: none;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
 header nav ul li a {
   color: #e7ecef;
   text-decoration: none;
@@ -51,10 +78,23 @@ header nav ul li:last-child a {
   margin-right: 0;
 }
 
+header nav ul li a:hover {
+  color: #a3cef1;
+}
+
 img {
   width: 100%;
 }
 
+main {
+  display: block;
+  margin-top: 10px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+}
 
 @media all and (min-width: 800px) {
   header {
@@ -64,5 +104,11 @@ img {
   }
   header nav {
     margin-top: 25px;
+  }
+  section {
+    padding: 5%;
+  }
+  .group {
+    flex-direction: row;
   }
 }
