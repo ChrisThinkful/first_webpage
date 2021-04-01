@@ -112,3 +112,20 @@ main {
     flex-direction: row;
   }
 }
+form {
+  padding-right: 8px;
+}
+
+form label {
+  display: block;
+}
+
+form input, 
+form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+form textarea {
+  height: 160px;
+}
