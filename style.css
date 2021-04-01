@@ -7,7 +7,21 @@ body {
 }
 
 .shaded-background {
+  text-align: center;
   background-color: #C1D5EB;
+}
+
+.shaded-background > ul {
+  padding-left: 0;
+  display: inline-block;
+}
+
+.shaded-background > ul li {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
 }
 
 header {
@@ -49,10 +63,6 @@ header nav ul {
   padding-left: 0;
   list-style: none;
 }
-
-/* ul {
-  list-style: none;
-} */
 
 .group {
   display: flex;
