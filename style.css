@@ -50,9 +50,9 @@ header nav ul {
   list-style: none;
 }
 
-ul {
+/* ul {
   list-style: none;
-}
+} */
 
 .group {
   display: flex;
