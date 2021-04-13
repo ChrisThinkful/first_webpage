@@ -71,7 +71,7 @@ header nav ul {
 
 .item {
   flex: 1;
-  margin: 0 10vh ;
+  margin: 10px;
 }
 
 .item-double {
