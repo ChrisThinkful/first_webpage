@@ -71,7 +71,7 @@ header nav ul {
 
 .item {
   flex: 1;
-  margin: 10vh;
+  margin: 0 10vh ;
 }
 
 .item-double {
@@ -104,6 +104,14 @@ main {
 .about {
   display: flex;
   flex-direction: row;
+}
+
+#contact {
+  justify-content: center;
+}
+
+#btn {
+  justify-content: center;
 }
 
 @media all and (min-width: 800px) {
