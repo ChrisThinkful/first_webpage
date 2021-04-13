@@ -43,7 +43,7 @@ header {
 }
 
 section {
-  padding: 2%;
+  padding: 5%;
 }
 
 h3 {
@@ -72,6 +72,7 @@ header nav ul {
 .item {
   flex: 1;
   margin: 10px;
+  text-align: center;
 }
 
 .item-double {
@@ -124,7 +125,7 @@ main {
     margin-top: 25px;
   }
   section {
-    padding: 5%;
+    padding: 2% 10%;
   }
   .group {
     flex-direction: row;
@@ -146,4 +147,8 @@ form textarea {
 
 form textarea {
   height: 160px;
+}
+
+.item-double > ol {
+  display: inline-block;
 }
